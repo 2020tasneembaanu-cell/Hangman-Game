@@ -64,7 +64,15 @@ hangman_stages = [
 ]
 
 # Step 2: Word list
-words = ["apple", "banana", "orange", "grapes", "mango", "cherry", "papaya", "peach"]
+words = [
+    "apple", "banana", "mango", "orange", "grape", "cherry", "papaya", "peach", 
+    "pear", "plum", "kiwi", "lemon", "lime", "melon", "watermelon", "strawberry", 
+    "blueberry", "raspberry", "blackberry", "pineapple", "pomegranate", "apricot", 
+    "fig", "date", "guava", "lychee", "custardapple", "dragonfruit", "jackfruit", 
+    "tamarind", "mulberry", "cranberry", "gooseberry", "persimmon", "starfruit", 
+    "avocado", "coconut", "passionfruit", "sapota", "durian", "melon", "cantaloupe", 
+    "honeydew", "olive", "breadfruit", "longan", "rambutan", "tangerine", "clementine"
+]
 
 # Step 3: Pick a random word
 word = random.choice(words)
